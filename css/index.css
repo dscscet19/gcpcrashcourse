@@ -49,12 +49,12 @@ body{
     margin: auto auto;
 }
 
-.know-more-button{
+.know-more-button, .register-btn{
     background: #4D95FB;
     color: #ffffff;
     font-size: 24px;
     font-weight: 300;
-    width: 150px;
+    width: 270px;
     text-align: center;
     padding: 10px;
     border-radius: 6px;
@@ -65,7 +65,7 @@ body{
     transition: all .3s ease;
 }
 
-.know-more-button:hover{
+.know-more-button:hover ,.register-btn:hover{
     background: #ffffff;
     color: #4D95FB;
 }
@@ -116,6 +116,16 @@ body{
     line-height: 2rem;
     margin:auto auto;
 }
+
+.main-about img{
+    border-radius: 5px 5px; margin:auto auto; max-width: 50%;
+    height: auto;
+    
+    line-height: 2rem;
+    margin:auto auto;
+}
+
+
 
 .main-about-icon{
     text-align: center;
